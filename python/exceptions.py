@@ -1,0 +1,2 @@
+class TerminateExecution(Exception):
+    pass

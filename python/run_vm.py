@@ -1,7 +1,8 @@
-from operations import OPERATIONS
-from itertools import count
 from exceptions import TerminateExecution
-from vm_structs import TokenTree, Memory
+from itertools import count
+
+from operations import OPERATIONS
+from vm_structs import Memory, TokenTree
 
 DEBUG = False
 DEBUG_ON_FOR = ()

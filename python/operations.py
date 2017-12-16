@@ -1,5 +1,5 @@
-from exceptions import TerminateExecution
 import sys
+from exceptions import TerminateExecution
 
 UINT_MAX = 32768
 
